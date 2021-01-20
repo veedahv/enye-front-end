@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+/* Color Theme Swatches in Hex */
+.Copy-of-Royal-Blue-Construction-1-hex { color: #0A0EF0; }
+.Copy-of-Royal-Blue-Construction-2-hex { color: #040BDB; }
+.Copy-of-Royal-Blue-Construction-3-hex { color: #7B84DB; }
+.Copy-of-Royal-Blue-Construction-4-hex { color: #F2F2F2; }
+.Copy-of-Royal-Blue-Construction-5-hex { color: #0D0D0D; }
+
+/* Color Theme Swatches in RGBA */
+.Copy-of-Royal-Blue-Construction-1-rgba { color: rgba(9, 14, 239, 1); }
+.Copy-of-Royal-Blue-Construction-2-rgba { color: rgba(4, 10, 219, 1); }
+.Copy-of-Royal-Blue-Construction-3-rgba { color: rgba(122, 131, 219, 1); }
+.Copy-of-Royal-Blue-Construction-4-rgba { color: rgba(242, 242, 242, 1); }
+.Copy-of-Royal-Blue-Construction-5-rgba { color: rgba(12, 12, 12, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Copy-of-Royal-Blue-Construction-1-hsla { color: hsla(238, 92, 48, 1); }
+.Copy-of-Royal-Blue-Construction-2-hsla { color: hsla(238, 96, 43, 1); }
+.Copy-of-Royal-Blue-Construction-3-hsla { color: hsla(234, 57, 67, 1); }
+.Copy-of-Royal-Blue-Construction-4-hsla { color: hsla(0, 0, 95, 1); }
+.Copy-of-Royal-Blue-Construction-5-hsla { color: hsla(0, 0, 5, 1); }
+
+body {
+  /* font: 14px "Century Gothic", Futura, sans-serif; */
+  padding: 20px;
+  background-color: #7B84DB;
+  /* color: #7B84DB; */
+}
+
+.title {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+}
+
+
+/* ol, ul {
+  padding-left: 30px;
+} */
+
+
+/* .status {
+  margin-bottom: 10px;
+} */
+
+#search-field,
+#page-menu {
+  margin: 10px;
+}
+#search-field:focus,
+#page-menu:focus {
+  outline: none;
+  box-shadow: 0px 0px 4px rgba(12, 12, 12, .5);
+}
+#search-field {
+  padding: 5px 10px;
+  /* border: 1px solid #0D0D0D; */
+  border: none;
+  border-radius: 5px;
+}
+
+.container {
+  /* overflow: scroll; */
+  /* width: ; */
+  max-width: 1100px;
+  padding: 10px;
+}
+
+@media (max-width: 567px) {
+  .container > .row > * {
+    display: block;
+    width: 100%;
+  }
+  .title {
+    font-size: 20px;
+  }
+}
+
+.container-table {
+  overflow-x: scroll;
+  /* scrollbar-width: 0px; */
+  /* scrollbar-color: tr; */
+  width: 100%;
+  border-radius: 10px;
+}
+
+.container-table::-webkit-scrollbar {
+  width: 0px;
+  background-color: transparent;
+}
+
+
+
+.table {
+  /* background-color: #F2F2F2; */
+  background-color: #FFFFFF;
+  color: #0D0D0D;
+  font-family: 'Open Sans', sans-serif;
+  /* overflow: scroll; */
+  /* width: 100%; */
+}
